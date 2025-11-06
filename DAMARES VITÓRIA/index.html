@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança e Privacidade no VS Code</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,"> </head>
+<body>
+
+    <header>
+        <h1>🛡️ Segurança e Privacidade no VS Code</h1>
+        <p>O Dilema da Produtividade vs. Risco para Desenvolvedores</p>
+    </header>
+
+    <main>
+        <section id="visao-geral">
+            <h2>Visão Geral</h2>
+            <p>O Visual Studio Code é um editor poderoso. Contudo, seu vasto ecossistema de extensões de terceiros introduz riscos significativos de segurança e privacidade.</p>
+        </section>
+
+        <section id="vantagens">
+            <h2>✅ Vantagens para a Segurança</h2>
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Vantagem</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Código-Fonte Aberto</td>
+                            <td>Permite inspeção de segurança pela comunidade.</td>
+                        </tr>
+                        <tr>
+                            <td>Opção VSCodium</td>
+                            <td>Versão compilada sem o código de telemetria da Microsoft (foco na privacidade).</td>
+                        </tr>
+                        <tr>
+                            <td>Suporte Constante</td>
+                            <td>Microsoft fornece atualizações regulares de segurança.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="desvantagens">
+            <h2>⚠️ Desvantagens (Principais Riscos)</h2>
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Desvantagem</th>
+                            <th>Risco Principal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Extensões Maliciosas</td>
+                            <td>Podem roubar credenciais (tokens, chaves SSH) ou injetar malware.</td>
+                        </tr>
+                        <tr>
+                            <td>Telemetria (Padrão)</td>
+                            <td>Coleta de dados de uso do editor enviada à Microsoft (preocupação com privacidade).</td>
+                        </tr>
+                        <tr>
+                            <td>Ataques à Cadeia de Suprimentos</td>
+                            <td>Extensões legítimas são comprometidas e atualizadas com código malicioso.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="consequencias">
+            <h2>💥 Consequências de uma Violação</h2>
+            <ul>
+                <li>**Roubo de Credenciais:** Perda de acesso a serviços em nuvem (AWS, Azure) e repositórios privados.</li>
+                <li>**Comprometimento do Código:** Injeção de código malicioso no seu projeto final.</li>
+                <li>**Invasão da Máquina:** Malware escapa do editor e assume o controle da máquina local.</li>
+            </ul>
+        </section>
+
+        <section id="melhores-praticas">
+            <h2>💡 Melhores Práticas de Segurança</h2>
+            <ol>
+                <li>**Priorize o VSCodium:** Para máxima privacidade.</li>
+                <li>**Verifique o Autor:** Instale extensões apenas de fontes confiáveis (alta popularidade, reviews).</li>
+                <li>**Isole Projetos:** Use Dev Containers ou VMs para código sensível.</li>
+                <li>**Atualize Semprer:** Mantenha o VS Code e as extensões na versão mais recente.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Segurança de Dados. Informação crítica para desenvolvedores.</p>
+    </footer>
+
+</body>
+</html>
